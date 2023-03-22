@@ -187,7 +187,7 @@
 
     /* leading brands css */ 
     .brnds-wrapper {padding: 40px 0;}
-    .brnds-wrap .section-title {padding-bottom: 40px;}
+    .brnds-wrap .section-title {margin-bottom: 40px;}
     .brnds-wrap::before, .soln-wrap::before {display: none;}
     .brnds-list {margin: 50px;}
     .brnds-inn-wrap img {width: 100%;height: 100%;display: block;max-width: 85px;}
