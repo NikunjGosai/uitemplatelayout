@@ -136,6 +136,7 @@
 @media screen and (min-width: 1025px) {
     .comm-btn a:hover {background-color: transparent;color: var(--primary-color);}
     .login-txt:hover {color: var(--primary-color);}
+    .listing a:hover {background: radial-gradient(118.3% 102.98% at 70.88% -13.63%, #9686FF 43%, #E7BCFF 18%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
     .ftr-listing a:hover {color: var(--primary-color);}   
 }
 
@@ -264,7 +265,7 @@
     .soln-wrap {margin: 0 110px;}
     .num-list.row {margin: 0;}
     .soln-inner-list {margin-bottom: 20px;}
-    .soln-img {width: 130px;height: 102px;margin: 0 auto 25px;}
+    .soln-img {width: 130px;height: 102px;margin: 0 auto 15px;}
     .soln-title {font-size: 18px;line-height: 24px;margin-bottom: 15px;}
     .soln-inner-list .section-desc {text-align: center;padding: 0;margin-bottom: 15px;}
     .soln-wrap::before, .brnds-wrap::before, .finance-wrap::before {display: none;}
