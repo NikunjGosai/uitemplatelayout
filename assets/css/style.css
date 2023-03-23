@@ -45,7 +45,7 @@
 .finance-wrap .section-desc {margin-bottom: 90px;}
 .num-list.row {margin: 0 0 50px;}
 .num-wrap .number-1, .num-wrap .number-2, .num-wrap .number-3 {background: radial-gradient(176.02% 176.02% at 61.73% -28.89%, #9686FF 0%, #E7BCFF 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;font-size: 50px;line-height: 56px;font-weight: 800;display: inline-block;position: relative;margin-bottom: 35px;}
-.num-wrap .section-desc {margin-bottom: 0;}
+.num-wrap .section-desc {padding: 0 20px;margin-bottom: 0;}
 
 /* tree images */
 /* tree-img-wrap 1 */
@@ -98,7 +98,7 @@
 .team-wrapper {position: relative;padding: 150px 0 160px;}
 .team-img {float: left;width: 100%;height: 100%;max-width: 500px;}
 .team-content {float: right;width: calc(100% - 620px);text-align: right;margin-top: 50px;}
-.team-content .section-desc {-webkit-line-clamp: 4;margin-bottom: 40px;}
+.team-content .section-desc {margin-bottom: 40px;}
 .team-wrapper::before {content: "";background: linear-gradient(145.75deg, #9b60bad1 -134.21%, rgb(212 187 255 / 0%) 27.34%);width: 50%;height: 100%;position: absolute;left: 0;top: 0;z-index: -1;}
 
 /* leading brands css */
@@ -114,7 +114,7 @@
 .sign-up-txt .title {color: var(--white-color);font-size: 25px;font-weight: 600;line-height: 31px;-webkit-line-clamp: 2;margin-bottom: 30px;}
 .sign-up-wrap .comm-btn {text-align: center;position: relative;z-index: 2;}
 .sign-up-wrap .comm-btn a {padding: 15px 60px;}
-.sign-up-img-wrap {position: absolute;top: 0;bottom: 0;left: 0;right: 0;}
+.sign-up-img-wrap {position: absolute;top: 0;bottom: 0;left: 0;right: 0;z-index: -1;}
 .sign-up-img-wrap img {border-radius: 80px;}
 
 /* sign up txt */
@@ -265,6 +265,7 @@
     .soln-wrap {margin: 0 110px;}
     .num-list.row {margin: 0;}
     .soln-inner-list {margin-bottom: 20px;}
+    .soln-inner-list:nth-child(2) .soln-img {margin-left: 35%;}
     .soln-img {width: 130px;height: 102px;margin: 0 auto 15px;}
     .soln-title {font-size: 18px;line-height: 24px;margin-bottom: 15px;}
     .soln-inner-list .section-desc {text-align: center;padding: 0;margin-bottom: 15px;}
