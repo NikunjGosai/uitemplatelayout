@@ -81,7 +81,7 @@
 .soln-img {width: 168px;height: 116px;margin: 0 auto 40px;}
 .soln-img img {height: auto;}
 .soln-title {color: var(--purple-text-color);font-size: 20px;font-weight: 700;line-height: 26px;text-transform: uppercase;-webkit-line-clamp: 2;margin-bottom: 30px;}
-.soln-inner-list .section-desc {text-align: left;text-transform: capitalize;padding: 0 30px;-webkit-line-clamp: 3;margin-bottom: 30px;}
+.soln-inner-list .section-desc {text-align: left;text-transform: capitalize;padding: 0 30px;-webkit-line-clamp: 3;line-height: 27px;margin-bottom: 30px;}
 .solution-wrapper::before {content: "";background: url('../image/curve-right-line.png') no-repeat;width: 330px;height: 570px;position: absolute;right: 0;top: -240px;} 
 .solution-wrapper::after {content: "";background: linear-gradient(-70.25deg, #9b60bad1 -117.21%, rgb(212 187 255 / 0%) 34.34%);width: 50%;height: 100%;position: absolute;right: 0;bottom: 0;z-index: -1;}
 
