@@ -98,7 +98,7 @@
 .team-wrapper {position: relative;padding: 150px 0 160px;}
 .team-img {float: left;width: 100%;height: 100%;max-width: 500px;}
 .team-content {float: right;width: calc(100% - 620px);text-align: right;margin-top: 50px;}
-.team-content .section-desc {margin-bottom: 40px;}
+.team-content .section-desc {-webkit-line-clamp: unset;margin-bottom: 40px;}
 .team-wrapper::before {content: "";background: linear-gradient(145.75deg, #9b60bad1 -134.21%, rgb(212 187 255 / 0%) 27.34%);width: 50%;height: 100%;position: absolute;left: 0;top: 0;z-index: -1;}
 
 /* leading brands css */
