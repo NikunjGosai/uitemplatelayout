@@ -265,7 +265,6 @@
     .soln-wrap {margin: 0 110px;}
     .num-list.row {margin: 0;}
     .soln-inner-list {margin-bottom: 20px;}
-    .soln-inner-list:nth-child(2) .soln-img {margin-left: 35%;}
     .soln-img {width: 130px;height: 102px;margin: 0 auto 15px;}
     .soln-title {font-size: 18px;line-height: 24px;margin-bottom: 15px;}
     .soln-inner-list .section-desc {text-align: center;padding: 0;margin-bottom: 15px;}
